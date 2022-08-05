@@ -1,0 +1,13 @@
+Holes between Component Layer and Solder Layer
+ Drill file: 0_15.ncd
+ Tool file:  0_15.tol
+ T1C0.0200  1274 holes drilled
+ T2C0.0300    34 holes drilled
+ T3C0.0400    28 holes drilled
+ T4C0.0470     7 holes drilled
+ T5C0.0512     3 holes drilled
+ T6C0.0590    20 holes drilled
+ T7C0.0630     6 holes drilled
+ T8C0.1100    23 holes drilled
+ T9C0.1650     8 holes drilled
+ Total number of Holes: 1403
