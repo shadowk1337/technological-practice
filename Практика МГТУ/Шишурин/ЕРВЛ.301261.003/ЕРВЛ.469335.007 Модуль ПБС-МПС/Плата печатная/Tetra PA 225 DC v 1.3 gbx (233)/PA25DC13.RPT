@@ -1,0 +1,2060 @@
+
+OutputFormat( modmod_type_1 )
+
+BoardFile( pa25dc13.bd1 )
+
+
+
+Start( Modules )
+
+
+
+Ref( C1          ) At(  5.4907,  5.7061 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.4845,  5.7749 ) Angle( 180.00 ) 
+                   Timestamp( AC76094A )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 630V ) Field5( 01_895 ) Field7( UF_X7R_630V_2220 ) 
+                   Field8( 2220 ) 
+
+   Mod( 2220     ) At( -3.5166, -9.0690 ) Angle( 180.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 0.22     ) At(  5.6907,  5.7855 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 5.4000  x  1.3005  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.800,  5.788 )   (90.0)      gnd 
+   Pad( 2 )        (  5.581,  5.788 )   (90.0)      n00011 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  5.5782,  5.6875 )-(  5.5782,  5.8875 )
+                   Seg(  5.8032,  5.6875 )-(  5.8032,  5.8875 )
+                   Seg(  5.8032,  5.6875 )-(  5.5782,  5.6875 )
+                   Seg(  5.8032,  5.8875 )-(  5.5782,  5.8875 )
+                   Seg(  5.6032,  5.8874 )-(  5.6032,  5.6875 )
+                   Seg(  5.7782,  5.6875 )-(  5.7782,  5.8875 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.7532,  5.6719 )-(  5.8345,  5.6719 )
+                   Seg(  5.7532,  5.9031 )-(  5.8345,  5.9031 )
+                   Seg(  5.8345,  5.9031 )-(  5.8345,  5.6719 )
+                   Seg(  5.6282,  5.9031 )-(  5.5470,  5.9031 )
+                   Seg(  5.6282,  5.6719 )-(  5.5470,  5.6719 )
+                   Seg(  5.5470,  5.6719 )-(  5.5470,  5.9031 )
+       Outline( End )
+
+
+Ref( C10         ) At(  6.2499,  6.8469 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  6.3187,  6.8531 ) Angle(  90.00 ) 
+                   Timestamp( AC76095B )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 630V ) Field5( 01_895 ) Field7( UF_X7R_630V_2220 ) 
+                   Field8( 2220 ) 
+
+   Mod( 2220     ) At( -8.6071, 16.2426 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 0.22     ) At(  6.2480,  7.0344 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 5.4000  x  1.3005  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  6.250,  6.925 )   (180.0)     n00012 
+   Pad( 2 )        (  6.250,  7.144 )   (180.0)     gnd 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  6.1500,  7.1469 )-(  6.3500,  7.1469 )
+                   Seg(  6.1500,  6.9219 )-(  6.3500,  6.9219 )
+                   Seg(  6.1500,  6.9219 )-(  6.1500,  7.1469 )
+                   Seg(  6.3500,  6.9219 )-(  6.3500,  7.1469 )
+                   Seg(  6.3499,  7.1219 )-(  6.1500,  7.1219 )
+                   Seg(  6.1500,  6.9469 )-(  6.3500,  6.9469 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  6.1344,  6.9719 )-(  6.1344,  6.8906 )
+                   Seg(  6.3656,  6.9719 )-(  6.3656,  6.8906 )
+                   Seg(  6.3656,  6.8906 )-(  6.1344,  6.8906 )
+                   Seg(  6.3656,  7.0969 )-(  6.3656,  7.1781 )
+                   Seg(  6.1344,  7.0969 )-(  6.1344,  7.1781 )
+                   Seg(  6.1344,  7.1781 )-(  6.3656,  7.1781 )
+       Outline( End )
+
+
+Ref( C11         ) At(  2.5063,  6.2002 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.4063,  6.2002 ) Angle(  90.00 ) 
+                   Timestamp( AC764BBD )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_790 ) Field7( UF_X7R_100V_1210 ) 
+                   Field8( 1210 ) 
+
+   Mod( 1210     ) At(  2.5063,  6.3814 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 4.7      ) At(  2.5063,  6.3814 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  2.506,  6.444 )   (180.0)     v-_1 
+   Pad( 2 )        (  2.506,  6.319 )   (0.0)       v+_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  2.4563,  6.4440 )-(  2.4563,  6.3190 )
+                   Seg(  2.5563,  6.3190 )-(  2.5563,  6.4440 )
+                   Seg(  2.5563,  6.4440 )-(  2.4563,  6.4440 )
+                   Seg(  2.5563,  6.3190 )-(  2.4563,  6.3190 )
+                   Seg(  2.4563,  6.3438 )-(  2.5563,  6.3438 )
+                   Seg(  2.4563,  6.4188 )-(  2.5563,  6.4188 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  2.5751,  6.2751 )-(  2.4376,  6.2751 )
+                   Seg(  2.5751,  6.4876 )-(  2.4376,  6.4876 )
+                   Seg(  2.5751,  6.4188 )-(  2.5751,  6.4876 )
+                   Seg(  2.4376,  6.4188 )-(  2.4376,  6.4876 )
+                   Seg(  2.4376,  6.3441 )-(  2.4376,  6.2751 )
+                   Seg(  2.5751,  6.3441 )-(  2.5751,  6.2751 )
+       Outline( End )
+
+
+Ref( C12         ) At(  2.1875,  6.3814 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.0875,  6.3814 ) Angle(  90.00 ) 
+                   Timestamp( AC764BBF )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_790 ) Field7( UF_X7R_100V_1210 ) 
+                   Field8( 1210 ) 
+
+   Mod( 1210     ) At(  2.3000,  6.3814 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 4.7      ) At(  2.3000,  6.3814 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  2.300,  6.444 )   (180.0)     v-_1 
+   Pad( 2 )        (  2.300,  6.319 )   (0.0)       v+_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  2.2500,  6.4440 )-(  2.2500,  6.3190 )
+                   Seg(  2.3500,  6.3190 )-(  2.3500,  6.4440 )
+                   Seg(  2.3500,  6.4440 )-(  2.2500,  6.4440 )
+                   Seg(  2.3500,  6.3190 )-(  2.2500,  6.3190 )
+                   Seg(  2.2500,  6.3438 )-(  2.3500,  6.3438 )
+                   Seg(  2.2500,  6.4188 )-(  2.3500,  6.4188 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  2.3688,  6.2751 )-(  2.2313,  6.2751 )
+                   Seg(  2.3688,  6.4876 )-(  2.2313,  6.4876 )
+                   Seg(  2.3688,  6.4188 )-(  2.3688,  6.4876 )
+                   Seg(  2.2313,  6.4188 )-(  2.2313,  6.4876 )
+                   Seg(  2.2313,  6.3441 )-(  2.2313,  6.2751 )
+                   Seg(  2.3688,  6.3441 )-(  2.3688,  6.2751 )
+       Outline( End )
+
+
+Ref( C13         ) At(  3.2938,  5.9937 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  3.2060,  6.0311 ) Angle( 270.00 ) 
+                   Timestamp( F03D4410 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 50V ) Field5( 01____ ) 
+                   Field7( UF_50V_D16_X_16_5___EEVFK1J471M_ ) Field8( D1616 ) 
+
+   Mod( D1616    ) At( -9.4395,  7.9099 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 470.0    ) At(  3.1313,  6.3874 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 7.0002  x  3.5001  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( P )        (  3.125,  6.113 )   (270.0)     v+_1 
+   Pad( M )        (  3.125,  6.650 )   (90.0)      v-_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+           Arc(  3.1250,  6.0687 )-(  3.1250,  6.3812 )-(  3.4375,  6.3812 )
+           Arc(  3.4375,  6.3812 )-(  3.1250,  6.3812 )-(  3.1250,  6.6937 )
+           Arc(  3.1250,  6.6937 )-(  3.1250,  6.3812 )-(  2.8125,  6.3812 )
+           Arc(  2.8125,  6.3812 )-(  3.1250,  6.3812 )-(  3.1250,  6.0687 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  3.0375,  6.7187 )-(  2.7875,  6.7187 )
+                   Seg(  3.4625,  6.1625 )-(  3.4625,  6.7187 )
+                   Seg(  2.7875,  6.1624 )-(  2.7875,  6.7187 )
+                   Seg(  2.7875,  6.1624 )-(  2.9062,  6.0437 )
+                   Seg(  3.0375,  6.0437 )-(  2.9062,  6.0437 )
+                   Seg(  3.2125,  6.7187 )-(  3.4625,  6.7187 )
+                   Seg(  3.4625,  6.1625 )-(  3.3437,  6.0437 )
+                   Seg(  3.2125,  6.0437 )-(  3.3437,  6.0437 )
+       Outline( End )
+
+
+Ref( C14         ) At(  1.3250,  6.2502 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  0.3250,  6.1564 ) Angle(   0.00 ) 
+                   Timestamp( AC7672DA )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_790 ) Field7( UF_X7R_100V_1210 ) 
+                   Field8( 1210 ) 
+
+   Mod( 1210     ) At(  1.4749,  6.2438 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 4.7      ) At(  1.4749,  6.2500 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  1.413,  6.244 )   (90.0)      gnd 
+   Pad( 2 )        (  1.538,  6.244 )   (270.0)     v12_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.4123,  6.1938 )-(  1.5373,  6.1938 )
+                   Seg(  1.5373,  6.2938 )-(  1.4123,  6.2938 )
+                   Seg(  1.4123,  6.2938 )-(  1.4123,  6.1938 )
+                   Seg(  1.5373,  6.2938 )-(  1.5373,  6.1938 )
+                   Seg(  1.5125,  6.1938 )-(  1.5125,  6.2938 )
+                   Seg(  1.4375,  6.1938 )-(  1.4375,  6.2938 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.5812,  6.3126 )-(  1.5812,  6.1751 )
+                   Seg(  1.3687,  6.3126 )-(  1.3687,  6.1751 )
+                   Seg(  1.4375,  6.3126 )-(  1.3687,  6.3126 )
+                   Seg(  1.4375,  6.1751 )-(  1.3687,  6.1751 )
+                   Seg(  1.5122,  6.1751 )-(  1.5812,  6.1751 )
+                   Seg(  1.5122,  6.3126 )-(  1.5812,  6.3126 )
+       Outline( End )
+
+
+Ref( C15         ) At(  1.3188,  6.5814 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  0.3188,  6.4814 ) Angle(   0.00 ) 
+                   Timestamp( AC765837 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_790 ) Field7( UF_X7R_100V_1210 ) 
+                   Field8( 1210 ) 
+
+   Mod( 1210     ) At(  1.4749,  6.5750 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 4.7      ) At(  1.4749,  6.5750 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  1.413,  6.575 )   (90.0)      gnd 
+   Pad( 2 )        (  1.538,  6.575 )   (270.0)     v12_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.4123,  6.5250 )-(  1.5373,  6.5250 )
+                   Seg(  1.5373,  6.6250 )-(  1.4123,  6.6250 )
+                   Seg(  1.4123,  6.6250 )-(  1.4123,  6.5250 )
+                   Seg(  1.5373,  6.6250 )-(  1.5373,  6.5250 )
+                   Seg(  1.5125,  6.5250 )-(  1.5125,  6.6250 )
+                   Seg(  1.4375,  6.5250 )-(  1.4375,  6.6250 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.5812,  6.6438 )-(  1.5812,  6.5063 )
+                   Seg(  1.3687,  6.6438 )-(  1.3687,  6.5063 )
+                   Seg(  1.4375,  6.6438 )-(  1.3687,  6.6438 )
+                   Seg(  1.4375,  6.5063 )-(  1.3687,  6.5063 )
+                   Seg(  1.5122,  6.5063 )-(  1.5812,  6.5063 )
+                   Seg(  1.5122,  6.6438 )-(  1.5812,  6.6438 )
+       Outline( End )
+
+
+Ref( C2          ) At(  5.4845,  5.8812 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.4783,  5.9500 ) Angle( 180.00 ) 
+                   Timestamp( AC76094B )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 630V ) Field5( 01_895 ) Field7( UF_X7R_630V_2220 ) 
+                   Field8( 2220 ) 
+
+   Mod( 2220     ) At( -3.5168, -8.8255 ) Angle( 180.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 0.22     ) At(  5.6907,  6.0293 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 5.4000  x  1.3005  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.800,  6.031 )   (90.0)      gnd 
+   Pad( 2 )        (  5.581,  6.031 )   (90.0)      n00011 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  5.5782,  5.9313 )-(  5.5782,  6.1313 )
+                   Seg(  5.8032,  5.9313 )-(  5.8032,  6.1313 )
+                   Seg(  5.8032,  5.9313 )-(  5.5782,  5.9313 )
+                   Seg(  5.8032,  6.1313 )-(  5.5782,  6.1313 )
+                   Seg(  5.6032,  6.1312 )-(  5.6032,  5.9313 )
+                   Seg(  5.7782,  5.9313 )-(  5.7782,  6.1313 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.7532,  5.9157 )-(  5.8345,  5.9157 )
+                   Seg(  5.7532,  6.1469 )-(  5.8345,  6.1469 )
+                   Seg(  5.8345,  6.1469 )-(  5.8345,  5.9157 )
+                   Seg(  5.6282,  6.1469 )-(  5.5470,  6.1469 )
+                   Seg(  5.6282,  5.9157 )-(  5.5470,  5.9157 )
+                   Seg(  5.5470,  5.9157 )-(  5.5470,  6.1469 )
+       Outline( End )
+
+
+Ref( C3          ) At(  6.2126,  5.7688 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  6.2126,  6.8687 ) Angle( 180.00 ) 
+                   Timestamp( AC76094E )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_790 ) Field7( UF_X7R_100V_1210 ) 
+                   Field8( 1210 ) 
+
+   Mod( 1210     ) At(  6.0501,  5.7688 ) Angle( 180.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 4.7      ) At(  6.0501,  5.7687 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  6.113,  5.769 )   (270.0)     -60v_1 
+   Pad( 2 )        (  5.988,  5.769 )   (90.0)      +60v_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  6.1127,  5.8188 )-(  5.9877,  5.8188 )
+                   Seg(  5.9877,  5.7188 )-(  6.1127,  5.7188 )
+                   Seg(  6.1127,  5.7188 )-(  6.1127,  5.8188 )
+                   Seg(  5.9877,  5.7188 )-(  5.9877,  5.8188 )
+                   Seg(  6.0125,  5.8188 )-(  6.0125,  5.7188 )
+                   Seg(  6.0875,  5.8188 )-(  6.0875,  5.7188 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.9438,  5.7000 )-(  5.9438,  5.8375 )
+                   Seg(  6.1563,  5.7000 )-(  6.1563,  5.8375 )
+                   Seg(  6.0875,  5.7000 )-(  6.1563,  5.7000 )
+                   Seg(  6.0875,  5.8375 )-(  6.1563,  5.8375 )
+                   Seg(  6.0128,  5.8375 )-(  5.9438,  5.8375 )
+                   Seg(  6.0128,  5.7000 )-(  5.9438,  5.7000 )
+       Outline( End )
+
+
+Ref( C4          ) At(  5.3313,  5.6813 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.2500,  5.4657 ) Angle( 270.00 ) 
+                   Timestamp( DF5EAF60 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 01_195__01_274_ ) Field7( UF_X7R_50V_0603 ) 
+                   Field8( 0603 ) 
+
+   Mod( 0603     ) At(  5.3813,  5.3281 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 0.1      ) At(  5.3313,  5.5750 ) Angle(  90.00 ) Height(  0.0300 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen 1 )
+
+
+   PadSymbol( ' 0.8992  x  0.8001  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.331,  5.606 )   (180.0)     n00002 
+   Pad( 2 )        (  5.331,  5.544 )   (0.0)       gnd 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  5.3156,  5.6062 )-(  5.3156,  5.5437 )
+                   Seg(  5.3468,  5.6062 )-(  5.3468,  5.5437 )
+                   Seg(  5.3468,  5.5437 )-(  5.3156,  5.5437 )
+                   Seg(  5.3468,  5.6062 )-(  5.3156,  5.6062 )
+                   Seg(  5.3156,  5.5937 )-(  5.3468,  5.5937 )
+                   Seg(  5.3156,  5.5562 )-(  5.3468,  5.5562 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.3000,  5.5187 )-(  5.3000,  5.5625 )
+                   Seg(  5.3625,  5.5187 )-(  5.3625,  5.5625 )
+                   Seg(  5.3000,  5.5187 )-(  5.3625,  5.5187 )
+                   Seg(  5.3625,  5.5875 )-(  5.3625,  5.6313 )
+                   Seg(  5.3625,  5.6313 )-(  5.3000,  5.6313 )
+                   Seg(  5.3000,  5.5875 )-(  5.3000,  5.6313 )
+       Outline( End )
+
+
+Ref( C5          ) At(  3.9939,  6.0000 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  3.8873,  6.0375 ) Angle( 270.00 ) 
+                   Timestamp( AC7693EF )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_____ ) 
+                   Field7( UF_100V_D16_X_16_5 ) Field8( D1616 ) 
+
+   Mod( D1616    ) At( -8.4207,  7.9099 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 100.0    ) At(  4.1313,  6.3875 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 7.0002  x  3.5001  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( P )        (  4.144,  6.113 )   (270.0)     n00005 
+   Pad( M )        (  4.144,  6.650 )   (90.0)      n00004 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+           Arc(  4.1438,  6.0687 )-(  4.1438,  6.3812 )-(  4.4563,  6.3812 )
+           Arc(  4.4563,  6.3812 )-(  4.1438,  6.3812 )-(  4.1438,  6.6937 )
+           Arc(  4.1438,  6.6937 )-(  4.1438,  6.3812 )-(  3.8313,  6.3812 )
+           Arc(  3.8313,  6.3812 )-(  4.1438,  6.3812 )-(  4.1438,  6.0687 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  4.0563,  6.7187 )-(  3.8063,  6.7187 )
+                   Seg(  4.4813,  6.1625 )-(  4.4813,  6.7187 )
+                   Seg(  3.8063,  6.1624 )-(  3.8063,  6.7187 )
+                   Seg(  3.8063,  6.1624 )-(  3.9250,  6.0437 )
+                   Seg(  4.0563,  6.0437 )-(  3.9250,  6.0437 )
+                   Seg(  4.2313,  6.7187 )-(  4.4813,  6.7187 )
+                   Seg(  4.4813,  6.1625 )-(  4.3625,  6.0437 )
+                   Seg(  4.2313,  6.0437 )-(  4.3625,  6.0437 )
+       Outline( End )
+
+
+Ref( C6          ) At(  4.8688,  6.2125 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.9688,  6.2125 ) Angle( 270.00 ) 
+                   Timestamp( AC7693F0 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_790 ) Field7( UF_X7R_100V_1210 ) 
+                   Field8( 1210 ) 
+
+   Mod( 1210     ) At(  4.8750,  6.3812 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 4.7      ) At(  4.8750,  6.3812 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  4.875,  6.319 )   (0.0)       n00005 
+   Pad( 2 )        (  4.875,  6.444 )   (180.0)     n00004 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  4.9250,  6.3186 )-(  4.9250,  6.4436 )
+                   Seg(  4.8250,  6.4436 )-(  4.8250,  6.3186 )
+                   Seg(  4.8250,  6.3186 )-(  4.9250,  6.3186 )
+                   Seg(  4.8250,  6.4436 )-(  4.9250,  6.4436 )
+                   Seg(  4.9250,  6.4188 )-(  4.8250,  6.4188 )
+                   Seg(  4.9250,  6.3438 )-(  4.8250,  6.3438 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  4.8062,  6.4875 )-(  4.9437,  6.4875 )
+                   Seg(  4.8062,  6.2750 )-(  4.9437,  6.2750 )
+                   Seg(  4.8062,  6.3438 )-(  4.8062,  6.2750 )
+                   Seg(  4.9437,  6.3438 )-(  4.9437,  6.2750 )
+                   Seg(  4.9437,  6.4185 )-(  4.9437,  6.4875 )
+                   Seg(  4.8062,  6.4185 )-(  4.8062,  6.4875 )
+       Outline( End )
+
+
+Ref( C7          ) At(  5.7877,  7.0063 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.8877,  8.0063 ) Angle(  90.00 ) 
+                   Timestamp( AC760957 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_790 ) Field7( UF_X7R_100V_1210 ) 
+                   Field8( 1210 ) 
+
+   Mod( 1210     ) At(  5.7813,  6.8624 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 4.7      ) At(  5.7813,  6.8624 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.781,  6.800 )   (0.0)       n00011 
+   Pad( 2 )        (  5.781,  6.925 )   (180.0)     n00012 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  5.8313,  6.7998 )-(  5.8313,  6.9248 )
+                   Seg(  5.7313,  6.9248 )-(  5.7313,  6.7998 )
+                   Seg(  5.7313,  6.7998 )-(  5.8313,  6.7998 )
+                   Seg(  5.7313,  6.9248 )-(  5.8313,  6.9248 )
+                   Seg(  5.8313,  6.9000 )-(  5.7313,  6.9000 )
+                   Seg(  5.8313,  6.8250 )-(  5.7313,  6.8250 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.7125,  6.9687 )-(  5.8500,  6.9687 )
+                   Seg(  5.7125,  6.7562 )-(  5.8500,  6.7562 )
+                   Seg(  5.7125,  6.8250 )-(  5.7125,  6.7562 )
+                   Seg(  5.8500,  6.8250 )-(  5.8500,  6.7562 )
+                   Seg(  5.8500,  6.8997 )-(  5.8500,  6.9687 )
+                   Seg(  5.7125,  6.8997 )-(  5.7125,  6.9687 )
+       Outline( End )
+
+
+Ref( C8          ) At(  5.6313,  7.0061 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.7623,  5.7500 ) Angle(  90.00 ) 
+                   Timestamp( AC760958 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 100V ) Field5( 01_790 ) Field7( UF_X7R_100V_1210 ) 
+                   Field8( 1210 ) 
+
+   Mod( 1210     ) At(  5.6188,  6.8624 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 4.7      ) At(  5.6186,  6.8625 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.619,  6.800 )   (0.0)       n00011 
+   Pad( 2 )        (  5.619,  6.925 )   (180.0)     n00012 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  5.6688,  6.7998 )-(  5.6688,  6.9248 )
+                   Seg(  5.5688,  6.9248 )-(  5.5688,  6.7998 )
+                   Seg(  5.5688,  6.7998 )-(  5.6688,  6.7998 )
+                   Seg(  5.5688,  6.9248 )-(  5.6688,  6.9248 )
+                   Seg(  5.6688,  6.9000 )-(  5.5688,  6.9000 )
+                   Seg(  5.6688,  6.8250 )-(  5.5688,  6.8250 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.5500,  6.9687 )-(  5.6875,  6.9687 )
+                   Seg(  5.5500,  6.7562 )-(  5.6875,  6.7562 )
+                   Seg(  5.5500,  6.8250 )-(  5.5500,  6.7562 )
+                   Seg(  5.6875,  6.8250 )-(  5.6875,  6.7562 )
+                   Seg(  5.6875,  6.8997 )-(  5.6875,  6.9687 )
+                   Seg(  5.5500,  6.8997 )-(  5.5500,  6.9687 )
+       Outline( End )
+
+
+Ref( C9          ) At(  6.0000,  6.8469 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  6.0688,  6.8531 ) Angle(  90.00 ) 
+                   Timestamp( AC760959 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 630V ) Field5( 01_895 ) Field7( UF_X7R_630V_2220 ) 
+                   Field8( 2220 ) 
+
+   Mod( 2220     ) At( -8.8634, 16.2425 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 0.22     ) At(  5.9918,  7.0344 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 5.4000  x  1.3005  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.994,  6.925 )   (180.0)     n00012 
+   Pad( 2 )        (  5.994,  7.144 )   (180.0)     gnd 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  5.8938,  7.1469 )-(  6.0938,  7.1469 )
+                   Seg(  5.8938,  6.9219 )-(  6.0938,  6.9219 )
+                   Seg(  5.8938,  6.9219 )-(  5.8938,  7.1469 )
+                   Seg(  6.0938,  6.9219 )-(  6.0938,  7.1469 )
+                   Seg(  6.0937,  7.1219 )-(  5.8938,  7.1219 )
+                   Seg(  5.8938,  6.9469 )-(  6.0938,  6.9469 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.8782,  6.9719 )-(  5.8782,  6.8906 )
+                   Seg(  6.1094,  6.9719 )-(  6.1094,  6.8906 )
+                   Seg(  6.1094,  6.8906 )-(  5.8782,  6.8906 )
+                   Seg(  6.1094,  7.0969 )-(  6.1094,  7.1781 )
+                   Seg(  5.8782,  7.0969 )-(  5.8782,  7.1781 )
+                   Seg(  5.8782,  7.1781 )-(  6.1094,  7.1781 )
+       Outline( End )
+
+
+Ref( D1          ) At(  6.3063,  5.9625 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  6.4313,  5.8125 ) Angle(   0.00 ) 
+                   Timestamp( F99BBC83 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 03_212 ) Field7( __SMC ) Field8( SMC ) 
+
+   Mod( SMC      ) At(  6.4812, 12.0427 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( SK59     ) At(  6.0625,  5.9938 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1600" x  0.0800" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( A )        (  6.181,  5.994 )   (90.0)      -60v_1 
+   Pad( C )        (  5.938,  5.994 )   (90.0)      +60v_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  6.2000,  5.8719 )-(  6.2000,  6.1156 )
+                   Seg(  5.9188,  5.8719 )-(  5.9188,  6.1156 )
+                   Seg(  5.9188,  6.1156 )-(  6.2000,  6.1156 )
+                   Seg(  5.9188,  5.8719 )-(  6.2000,  5.8719 )
+                   Seg(  5.9688,  5.8719 )-(  5.9688,  6.1156 )
+                   Seg(  6.1500,  5.8719 )-(  6.1500,  6.1156 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  6.2500,  5.8501 )-(  5.8688,  5.8501 )
+                   Seg(  6.2500,  6.1376 )-(  5.8688,  6.1376 )
+                   Seg(  5.8688,  6.1376 )-(  5.8688,  5.8501 )
+                   Seg(  6.2500,  6.1376 )-(  6.2500,  5.8501 )
+                   Seg(  6.0000,  5.8501 )-(  6.0000,  6.1376 )
+       Outline( End )
+
+
+Ref( D2          ) At(  4.7438,  6.6499 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  4.6250,  6.7999 ) Angle(  90.00 ) 
+                   Timestamp( F8453F17 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 03_214 ) Field7( A__SMC__DOMINUS214AB_ ) 
+                   Field8( SMC ) 
+
+   Mod( SMC      ) At( -1.4052,  6.8062 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( SMCJ75   ) At(  4.6438,  6.3937 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1600" x  0.0800" []  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( A )        (  4.644,  6.506 )   (0.0)       n00004 
+   Pad( C )        (  4.644,  6.263 )   (0.0)       n00005 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  4.7657,  6.5250 )-(  4.5220,  6.5250 )
+                   Seg(  4.7657,  6.2438 )-(  4.5220,  6.2438 )
+                   Seg(  4.5220,  6.2438 )-(  4.5220,  6.5250 )
+                   Seg(  4.7657,  6.2438 )-(  4.7657,  6.5250 )
+                   Seg(  4.7657,  6.2938 )-(  4.5220,  6.2938 )
+                   Seg(  4.7657,  6.4750 )-(  4.5220,  6.4750 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  4.7875,  6.5750 )-(  4.7875,  6.1938 )
+                   Seg(  4.5000,  6.5750 )-(  4.5000,  6.1938 )
+                   Seg(  4.5000,  6.1938 )-(  4.7875,  6.1938 )
+                   Seg(  4.5000,  6.5750 )-(  4.7875,  6.5750 )
+                   Seg(  4.7875,  6.3250 )-(  4.5000,  6.3250 )
+       Outline( End )
+
+
+Ref( D3          ) At(  1.3095,  6.4219 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.2970,  6.4094 ) Angle(   0.00 ) 
+                   Timestamp( 0F0ACFA1 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 03_215 ) Field7( A ) Field8( SMBj ) 
+
+   Mod( SMBJ     ) At(  1.0594,  0.3631 ) Angle( 180.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( SMBJ33   ) At(  1.7406,  6.4124 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 1.7501  x  2.2200  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( A )        (  1.400,  6.413 )   (180.0)     gnd 
+   Pad( C )        (  1.563,  6.413 )   (180.0)     v12_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.3969,  6.3406 )-(  1.3969,  6.4844 )
+                   Seg(  1.5656,  6.3406 )-(  1.5656,  6.4844 )
+                   Seg(  1.3969,  6.3406 )-(  1.5656,  6.3406 )
+                   Seg(  1.3969,  6.4844 )-(  1.5656,  6.4844 )
+                   Seg(  1.5875,  6.3719 )-(  1.5656,  6.3719 )
+                   Seg(  1.5875,  6.3719 )-(  1.5875,  6.4531 )
+                   Seg(  1.5875,  6.4531 )-(  1.5656,  6.4531 )
+                   Seg(  1.3750,  6.4531 )-(  1.3969,  6.4531 )
+                   Seg(  1.3750,  6.4531 )-(  1.3750,  6.3719 )
+                   Seg(  1.3750,  6.3719 )-(  1.3969,  6.3719 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.6094,  6.3312 )-(  1.6094,  6.4937 )
+                   Seg(  1.3531,  6.3312 )-(  1.3531,  6.4937 )
+                   Seg(  1.3531,  6.4937 )-(  1.6094,  6.4937 )
+                   Seg(  1.3531,  6.3312 )-(  1.6094,  6.3312 )
+                   Seg(  1.5125,  6.4125 )-(  1.4500,  6.4750 )
+                   Seg(  1.4500,  6.3500 )-(  1.4500,  6.4750 )
+                   Seg(  1.5125,  6.4125 )-(  1.4500,  6.3500 )
+                   Seg(  1.5125,  6.3500 )-(  1.5125,  6.4750 )
+       Outline( End )
+
+
+Ref( D4          ) At(  2.1312,  7.0970 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.9156,  7.1783 ) Angle(   0.00 ) 
+                   Timestamp( ADCDD6BD )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 03_607 ) Field7( __LTSTMINUSC190KGKT__0603 ) 
+                   Field8( 0603P ) 
+
+   Mod( 0603P    ) At(  1.7593,  7.0438 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen 1 )
+
+   Val( LED_G    ) At(  2.0062,  7.0938 ) Angle(   0.00 ) Height(  0.0300 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen 1 )
+
+
+   PadSymbol( ' 0.8992  x  0.8001  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( C )        (  2.038,  7.094 )   (270.0)     n00010 
+   Pad( A )        (  1.975,  7.094 )   (90.0)      v1_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  2.0374,  7.1095 )-(  1.9749,  7.1095 )
+                   Seg(  2.0374,  7.0783 )-(  1.9749,  7.0783 )
+                   Seg(  1.9749,  7.0783 )-(  1.9749,  7.1095 )
+                   Seg(  2.0374,  7.0783 )-(  2.0374,  7.1095 )
+                   Seg(  2.0249,  7.1095 )-(  2.0249,  7.0783 )
+                   Seg(  1.9874,  7.1095 )-(  1.9874,  7.0783 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  2.0624,  7.0626 )-(  2.0624,  7.1251 )
+                   Seg(  2.0624,  7.0626 )-(  2.0187,  7.0626 )
+                   Seg(  2.0624,  7.1251 )-(  2.0187,  7.1251 )
+                   Seg(  2.0781,  7.0626 )-(  2.0781,  7.1251 )
+                   Seg(  1.9500,  7.0626 )-(  1.9500,  7.1251 )
+                   Seg(  1.9937,  7.1251 )-(  1.9500,  7.1251 )
+                   Seg(  1.9937,  7.0626 )-(  1.9500,  7.0626 )
+          Layer( Comment Layer ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  2.0156,  7.1063 )-(  2.0156,  7.0813 )
+                   Seg(  1.9968,  7.0813 )-(  1.9968,  7.1063 )
+                   Seg(  2.0156,  7.0938 )-(  1.9968,  7.0813 )
+                   Seg(  2.0156,  7.0938 )-(  1.9968,  7.1063 )
+       Outline( End )
+
+
+Ref( D5          ) At(  2.1188,  5.6656 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  2.3344,  5.5843 ) Angle( 180.00 ) 
+                   Timestamp( ADCDBF80 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 03_607 ) Field7( __LTSTMINUSC190KGKT__0603 ) 
+                   Field8( 0603P ) 
+
+   Mod( 0603P    ) At(  2.2532,  5.7125 ) Angle( 180.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen 1 )
+
+   Val( LED_G    ) At(  2.0063,  5.6625 ) Angle(   0.00 ) Height(  0.0300 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen 1 )
+
+
+   PadSymbol( ' 0.8992  x  0.8001  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( C )        (  1.975,  5.663 )   (90.0)      n00016 
+   Pad( A )        (  2.038,  5.663 )   (270.0)     v2_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.9751,  5.6468 )-(  2.0376,  5.6468 )
+                   Seg(  1.9751,  5.6780 )-(  2.0376,  5.6780 )
+                   Seg(  2.0376,  5.6780 )-(  2.0376,  5.6468 )
+                   Seg(  1.9751,  5.6780 )-(  1.9751,  5.6468 )
+                   Seg(  1.9876,  5.6468 )-(  1.9876,  5.6780 )
+                   Seg(  2.0251,  5.6468 )-(  2.0251,  5.6780 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.9501,  5.6937 )-(  1.9501,  5.6312 )
+                   Seg(  1.9501,  5.6937 )-(  1.9938,  5.6937 )
+                   Seg(  1.9501,  5.6312 )-(  1.9938,  5.6312 )
+                   Seg(  1.9344,  5.6937 )-(  1.9344,  5.6312 )
+                   Seg(  2.0625,  5.6937 )-(  2.0625,  5.6312 )
+                   Seg(  2.0188,  5.6312 )-(  2.0625,  5.6312 )
+                   Seg(  2.0188,  5.6937 )-(  2.0625,  5.6937 )
+          Layer( Comment Layer ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.9969,  5.6500 )-(  1.9969,  5.6750 )
+                   Seg(  2.0157,  5.6750 )-(  2.0157,  5.6500 )
+                   Seg(  1.9969,  5.6625 )-(  2.0157,  5.6750 )
+                   Seg(  1.9969,  5.6625 )-(  2.0157,  5.6500 )
+       Outline( End )
+
+
+Ref( F1          ) At(  1.6438,  7.0282 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.5219,  7.0532 ) Angle(  90.00 ) 
+                   Timestamp( DFA8A6F3 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field1( 7A ) Field5( 06_246 ) 
+                   Field7( _7A_2410__451_SERIES_NANO ) Field8( 2410 ) 
+
+   Mod( 2410     ) At(  2.3299,  6.0375 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( FUSE 7A  ) At(  1.6282,  6.8375 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 3.1801  x  1.9990  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 2 )        (  1.631,  6.938 )   (0.0)       v1_1 
+   Pad( 1 )        (  1.631,  6.738 )   (180.0)     v12_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.5750,  6.7156 )-(  1.6875,  6.7156 )
+                   Seg(  1.5750,  6.9594 )-(  1.6875,  6.9594 )
+                   Seg(  1.6875,  6.7719 )-(  1.5750,  6.7719 )
+                   Seg(  1.6875,  6.9031 )-(  1.5750,  6.9031 )
+                   Seg(  1.6875,  6.7156 )-(  1.6875,  6.7719 )
+                   Seg(  1.5750,  6.7156 )-(  1.5750,  6.7719 )
+                   Seg(  1.6875,  6.9031 )-(  1.6875,  6.9594 )
+                   Seg(  1.5750,  6.9031 )-(  1.5750,  6.9594 )
+                   Seg(  1.5813,  6.9031 )-(  1.5813,  6.7719 )
+                   Seg(  1.6813,  6.7719 )-(  1.6813,  6.9031 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.7063,  6.6875 )-(  1.5563,  6.6875 )
+                   Seg(  1.7063,  6.9875 )-(  1.5563,  6.9875 )
+                   Seg(  1.5563,  6.9875 )-(  1.5563,  6.6875 )
+                   Seg(  1.7063,  6.9875 )-(  1.7063,  6.6875 )
+       Outline( End )
+
+
+Ref( F2          ) At(  1.6345,  5.7311 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.6095,  5.6092 ) Angle(  90.00 ) 
+                   Timestamp( DFA8A9FF )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field1( 7A ) Field5( 06_246 ) 
+                   Field7( _7A_2410__451_SERIES_NANO ) Field8( 2410 ) 
+
+   Mod( 2410     ) At(  0.9323,  6.7250 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( FUSE 7A  ) At(  1.6344,  5.9250 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 3.1801  x  1.9990  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 2 )        (  1.631,  5.825 )   (180.0)     v2_1 
+   Pad( 1 )        (  1.631,  6.025 )   (0.0)       v12_1 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.6876,  6.0469 )-(  1.5751,  6.0469 )
+                   Seg(  1.6876,  5.8031 )-(  1.5751,  5.8031 )
+                   Seg(  1.5751,  5.9906 )-(  1.6876,  5.9906 )
+                   Seg(  1.5751,  5.8594 )-(  1.6876,  5.8594 )
+                   Seg(  1.5751,  6.0469 )-(  1.5751,  5.9906 )
+                   Seg(  1.6876,  6.0469 )-(  1.6876,  5.9906 )
+                   Seg(  1.5751,  5.8594 )-(  1.5751,  5.8031 )
+                   Seg(  1.6876,  5.8594 )-(  1.6876,  5.8031 )
+                   Seg(  1.6813,  5.8594 )-(  1.6813,  5.9906 )
+                   Seg(  1.5813,  5.9906 )-(  1.5813,  5.8594 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.5563,  6.0750 )-(  1.7063,  6.0750 )
+                   Seg(  1.5563,  5.7750 )-(  1.7063,  5.7750 )
+                   Seg(  1.7063,  5.7750 )-(  1.7063,  6.0750 )
+                   Seg(  1.5563,  5.7750 )-(  1.5563,  6.0750 )
+       Outline( End )
+
+
+Ref( J1          ) At(  5.7283,  5.4122 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.0138,  5.1558 ) Angle(  90.00 ) 
+                   Timestamp( 835CFEFC )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 06_____ ) Field6( 172298 ) Field7( _MOLEX ) 
+                   Field8( HEAD35_2x2MOL ) 
+
+   Mod( HEAD35_2X2MOL )At(  6.1438,  5.2250 ) Angle( 180.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 1204     ) At(  5.9330,  5.2233 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.0640" x  0.0640" ()  Pad  0.0400" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 2 )        (  6.006,  5.325 )   (180.0)     -60v_1 
+   Pad( 4 )        (  6.006,  5.506 )   (180.0)     -60v_1 
+   Pad( 1 )        (  5.869,  5.325 )   (180.0)     +60v_1 
+   Pad( 3 )        (  5.869,  5.506 )   (180.0)     +60v_1 
+
+   PadSymbol( ' 1.6002  x  1.6002  ()  Pad  1.6002  drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad(  )         (  5.938,  5.594 )   (180.0)      
+
+       Outline( Begin )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.7813,  5.5250 )-(  5.7813,  5.6250 )
+                   Seg(  6.0938,  5.6250 )-(  5.9688,  5.6250 )
+                   Seg(  5.9313,  5.3875 )-(  5.8063,  5.3875 )
+                   Seg(  6.0688,  5.2750 )-(  6.0688,  5.5688 )
+                   Seg(  5.8063,  5.6000 )-(  5.8438,  5.6000 )
+                   Seg(  5.8438,  5.6000 )-(  5.8438,  5.5688 )
+                   Seg(  5.9313,  5.4438 )-(  5.8063,  5.4438 )
+                   Seg(  5.9313,  5.2750 )-(  5.9313,  5.3875 )
+                   Seg(  5.8063,  5.2750 )-(  5.9313,  5.2750 )
+                   Seg(  5.9438,  5.2750 )-(  5.9438,  5.3875 )
+                   Seg(  5.9438,  5.2750 )-(  6.0688,  5.2750 )
+                   Seg(  5.9751,  5.5688 )-(  6.0688,  5.5688 )
+                   Seg(  5.9438,  5.3875 )-(  6.0688,  5.3875 )
+                   Seg(  5.9438,  5.4438 )-(  6.0688,  5.4438 )
+                   Seg(  6.0938,  5.3063 )-(  6.1063,  5.3063 )
+                   Seg(  6.1063,  5.3063 )-(  6.1063,  5.3438 )
+                   Seg(  6.1063,  5.3438 )-(  6.0938,  5.3438 )
+                   Seg(  6.0938,  5.5250 )-(  6.0938,  5.6250 )
+                   Seg(  6.0938,  5.3438 )-(  6.0938,  5.4875 )
+                   Seg(  6.1063,  5.4875 )-(  6.0938,  5.4875 )
+                   Seg(  6.1063,  5.4875 )-(  6.1063,  5.5250 )
+                   Seg(  6.1063,  5.5250 )-(  6.0938,  5.5250 )
+                   Seg(  5.7813,  5.4875 )-(  5.7688,  5.4875 )
+                   Seg(  5.7813,  5.5250 )-(  5.7688,  5.5250 )
+                   Seg(  5.7688,  5.5250 )-(  5.7688,  5.4875 )
+                   Seg(  5.7813,  5.3063 )-(  5.7688,  5.3063 )
+                   Seg(  5.7688,  5.3063 )-(  5.7688,  5.3438 )
+                   Seg(  5.7813,  5.4875 )-(  5.7813,  5.3438 )
+                   Seg(  5.7813,  5.3438 )-(  5.7688,  5.3438 )
+                   Seg(  5.8251,  5.1750 )-(  5.8251,  5.2750 )
+                   Seg(  5.8063,  5.6000 )-(  5.8063,  5.2750 )
+                   Seg(  6.0938,  5.1375 )-(  5.7813,  5.1375 )
+                   Seg(  5.8063,  5.2750 )-(  5.8251,  5.2750 )
+                   Seg(  6.0501,  5.1750 )-(  6.0501,  5.2750 )
+                   Seg(  6.0688,  5.2750 )-(  6.0501,  5.2750 )
+                   Seg(  5.8251,  5.1750 )-(  6.0501,  5.1750 )
+                   Seg(  5.7813,  5.3063 )-(  5.7813,  5.1375 )
+                   Seg(  6.0938,  5.3063 )-(  6.0938,  5.1375 )
+                   Seg(  5.8063,  5.6250 )-(  5.8063,  5.6438 )
+                   Seg(  5.8438,  5.6438 )-(  5.8438,  5.6250 )
+                   Seg(  6.0688,  5.6438 )-(  6.0688,  5.6250 )
+                   Seg(  6.0688,  5.6438 )-(  6.0313,  5.6438 )
+                   Seg(  6.0313,  5.6438 )-(  6.0313,  5.6250 )
+                   Seg(  5.8438,  5.6438 )-(  5.8063,  5.6438 )
+                   Seg(  5.7813,  5.6250 )-(  5.9063,  5.6250 )
+                   Seg(  5.8438,  5.5688 )-(  5.9001,  5.5688 )
+                   Seg(  5.9438,  5.4438 )-(  5.9438,  5.5500 )
+                   Seg(  5.9313,  5.4438 )-(  5.9313,  5.5500 )
+       Outline( End )
+
+
+Ref( J2          ) At(  1.8317,  7.0532 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.5808,  6.6986 ) Angle( 180.00 ) 
+                   Timestamp( AC7672DD )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 06_____ ) Field6( 172298 ) Field7( _MOLEX ) 
+                   Field8( HEAD35_2x2MOL ) 
+
+   Mod( HEAD35_2X2MOL )At(  1.8437,  6.6438 ) Angle( 270.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 2204     ) At(  1.8391,  6.8455 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.0640" x  0.0640" ()  Pad  0.0400" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 2 )        (  1.944,  6.781 )   (270.0)     gnd 
+   Pad( 4 )        (  2.125,  6.781 )   (270.0)     gnd 
+   Pad( 1 )        (  1.944,  6.919 )   (270.0)     v1_1 
+   Pad( 3 )        (  2.125,  6.919 )   (270.0)     v1_1 
+
+   PadSymbol( ' 1.6002  x  1.6002  ()  Pad  1.6002  drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad(  )         (  2.213,  6.850 )   (270.0)      
+
+       Outline( Begin )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  2.1437,  7.0063 )-(  2.2437,  7.0063 )
+                   Seg(  2.2437,  6.6938 )-(  2.2437,  6.8188 )
+                   Seg(  2.0062,  6.8563 )-(  2.0062,  6.9813 )
+                   Seg(  1.8937,  6.7188 )-(  2.1875,  6.7188 )
+                   Seg(  2.2187,  6.9813 )-(  2.2187,  6.9438 )
+                   Seg(  2.2187,  6.9438 )-(  2.1875,  6.9438 )
+                   Seg(  2.0625,  6.8563 )-(  2.0625,  6.9813 )
+                   Seg(  1.8937,  6.8563 )-(  2.0062,  6.8563 )
+                   Seg(  1.8937,  6.9813 )-(  1.8937,  6.8563 )
+                   Seg(  1.8937,  6.8438 )-(  2.0062,  6.8438 )
+                   Seg(  1.8937,  6.8438 )-(  1.8937,  6.7188 )
+                   Seg(  2.1875,  6.8125 )-(  2.1875,  6.7188 )
+                   Seg(  2.0062,  6.8438 )-(  2.0062,  6.7188 )
+                   Seg(  2.0625,  6.8438 )-(  2.0625,  6.7188 )
+                   Seg(  1.9250,  6.6938 )-(  1.9250,  6.6813 )
+                   Seg(  1.9250,  6.6813 )-(  1.9625,  6.6813 )
+                   Seg(  1.9625,  6.6813 )-(  1.9625,  6.6938 )
+                   Seg(  2.1437,  6.6938 )-(  2.2437,  6.6938 )
+                   Seg(  1.9625,  6.6938 )-(  2.1062,  6.6938 )
+                   Seg(  2.1062,  6.6813 )-(  2.1062,  6.6938 )
+                   Seg(  2.1062,  6.6813 )-(  2.1437,  6.6813 )
+                   Seg(  2.1437,  6.6813 )-(  2.1437,  6.6938 )
+                   Seg(  2.1062,  7.0063 )-(  2.1062,  7.0188 )
+                   Seg(  2.1437,  7.0063 )-(  2.1437,  7.0188 )
+                   Seg(  2.1437,  7.0188 )-(  2.1062,  7.0188 )
+                   Seg(  1.9250,  7.0063 )-(  1.9250,  7.0188 )
+                   Seg(  1.9250,  7.0188 )-(  1.9625,  7.0188 )
+                   Seg(  2.1062,  7.0063 )-(  1.9625,  7.0063 )
+                   Seg(  1.9625,  7.0063 )-(  1.9625,  7.0188 )
+                   Seg(  1.7937,  6.9625 )-(  1.8937,  6.9625 )
+                   Seg(  2.2187,  6.9813 )-(  1.8937,  6.9813 )
+                   Seg(  1.7562,  6.6938 )-(  1.7562,  7.0063 )
+                   Seg(  1.8937,  6.9813 )-(  1.8937,  6.9625 )
+                   Seg(  1.7937,  6.7375 )-(  1.8937,  6.7375 )
+                   Seg(  1.8937,  6.7188 )-(  1.8937,  6.7375 )
+                   Seg(  1.7937,  6.9625 )-(  1.7937,  6.7375 )
+                   Seg(  1.9250,  7.0063 )-(  1.7562,  7.0063 )
+                   Seg(  1.9250,  6.6938 )-(  1.7562,  6.6938 )
+                   Seg(  2.2437,  6.9813 )-(  2.2625,  6.9813 )
+                   Seg(  2.2625,  6.9438 )-(  2.2437,  6.9438 )
+                   Seg(  2.2625,  6.7188 )-(  2.2437,  6.7188 )
+                   Seg(  2.2625,  6.7188 )-(  2.2625,  6.7563 )
+                   Seg(  2.2625,  6.7563 )-(  2.2437,  6.7563 )
+                   Seg(  2.2625,  6.9438 )-(  2.2625,  6.9813 )
+                   Seg(  2.2437,  7.0063 )-(  2.2437,  6.8813 )
+                   Seg(  2.1875,  6.9438 )-(  2.1875,  6.8875 )
+                   Seg(  2.0625,  6.8438 )-(  2.1687,  6.8438 )
+                   Seg(  2.0625,  6.8563 )-(  2.1687,  6.8563 )
+       Outline( End )
+
+
+Ref( J3          ) At(  1.8255,  5.7033 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  2.4005,  6.8763 ) Angle(   0.00 ) 
+                   Timestamp( AC766867 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 06_____ ) Field6( 172298 ) Field7( _MOLEX ) 
+                   Field8( HEAD35_2x2MOL ) 
+
+   Mod( HEAD35_2X2MOL )At(  2.1625,  6.1188 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 2204     ) At(  2.1643,  5.9142 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.0640" x  0.0640" ()  Pad  0.0400" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 2 )        (  2.063,  5.981 )   (90.0)      gnd 
+   Pad( 4 )        (  1.881,  5.981 )   (90.0)      gnd 
+   Pad( 1 )        (  2.063,  5.844 )   (90.0)      v2_1 
+   Pad( 3 )        (  1.881,  5.844 )   (90.0)      v2_1 
+
+   PadSymbol( ' 1.6002  x  1.6002  ()  Pad  1.6002  drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad(  )         (  1.794,  5.913 )   (90.0)       
+
+       Outline( Begin )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.8625,  5.7563 )-(  1.7625,  5.7563 )
+                   Seg(  1.7625,  6.0688 )-(  1.7625,  5.9438 )
+                   Seg(  2.0000,  5.9063 )-(  2.0000,  5.7813 )
+                   Seg(  2.1125,  6.0438 )-(  1.8187,  6.0438 )
+                   Seg(  1.7875,  5.7813 )-(  1.7875,  5.8188 )
+                   Seg(  1.7875,  5.8188 )-(  1.8187,  5.8188 )
+                   Seg(  1.9437,  5.9063 )-(  1.9437,  5.7813 )
+                   Seg(  2.1125,  5.9063 )-(  2.0000,  5.9063 )
+                   Seg(  2.1125,  5.7813 )-(  2.1125,  5.9063 )
+                   Seg(  2.1125,  5.9188 )-(  2.0000,  5.9188 )
+                   Seg(  2.1125,  5.9188 )-(  2.1125,  6.0438 )
+                   Seg(  1.8187,  5.9501 )-(  1.8187,  6.0438 )
+                   Seg(  2.0000,  5.9188 )-(  2.0000,  6.0438 )
+                   Seg(  1.9437,  5.9188 )-(  1.9437,  6.0438 )
+                   Seg(  2.0812,  6.0688 )-(  2.0812,  6.0813 )
+                   Seg(  2.0812,  6.0813 )-(  2.0437,  6.0813 )
+                   Seg(  2.0437,  6.0813 )-(  2.0437,  6.0688 )
+                   Seg(  1.8625,  6.0688 )-(  1.7625,  6.0688 )
+                   Seg(  2.0437,  6.0688 )-(  1.9000,  6.0688 )
+                   Seg(  1.9000,  6.0813 )-(  1.9000,  6.0688 )
+                   Seg(  1.9000,  6.0813 )-(  1.8625,  6.0813 )
+                   Seg(  1.8625,  6.0813 )-(  1.8625,  6.0688 )
+                   Seg(  1.9000,  5.7563 )-(  1.9000,  5.7438 )
+                   Seg(  1.8625,  5.7563 )-(  1.8625,  5.7438 )
+                   Seg(  1.8625,  5.7438 )-(  1.9000,  5.7438 )
+                   Seg(  2.0812,  5.7563 )-(  2.0812,  5.7438 )
+                   Seg(  2.0812,  5.7438 )-(  2.0437,  5.7438 )
+                   Seg(  1.9000,  5.7563 )-(  2.0437,  5.7563 )
+                   Seg(  2.0437,  5.7563 )-(  2.0437,  5.7438 )
+                   Seg(  2.2125,  5.8001 )-(  2.1125,  5.8001 )
+                   Seg(  1.7875,  5.7813 )-(  2.1125,  5.7813 )
+                   Seg(  2.2500,  6.0688 )-(  2.2500,  5.7563 )
+                   Seg(  2.1125,  5.7813 )-(  2.1125,  5.8001 )
+                   Seg(  2.2125,  6.0251 )-(  2.1125,  6.0251 )
+                   Seg(  2.1125,  6.0438 )-(  2.1125,  6.0251 )
+                   Seg(  2.2125,  5.8001 )-(  2.2125,  6.0251 )
+                   Seg(  2.0812,  5.7563 )-(  2.2500,  5.7563 )
+                   Seg(  2.0812,  6.0688 )-(  2.2500,  6.0688 )
+                   Seg(  1.7625,  5.7813 )-(  1.7437,  5.7813 )
+                   Seg(  1.7437,  5.8188 )-(  1.7625,  5.8188 )
+                   Seg(  1.7437,  6.0438 )-(  1.7625,  6.0438 )
+                   Seg(  1.7437,  6.0438 )-(  1.7437,  6.0063 )
+                   Seg(  1.7437,  6.0063 )-(  1.7625,  6.0063 )
+                   Seg(  1.7437,  5.8188 )-(  1.7437,  5.7813 )
+                   Seg(  1.7625,  5.7563 )-(  1.7625,  5.8813 )
+                   Seg(  1.8187,  5.8188 )-(  1.8187,  5.8751 )
+                   Seg(  1.9437,  5.9188 )-(  1.8375,  5.9188 )
+                   Seg(  1.9437,  5.9063 )-(  1.8375,  5.9063 )
+       Outline( End )
+
+
+Ref( JP1         ) At(  5.1092,  5.2317 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.0887,  4.9493 ) Angle(  90.00 ) 
+                   Timestamp( ADCDF886 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 06_990 ) Field6( 105310 ) Field7( _MOLEX ) 
+                   Field8( HEAD_2X2MOL ) 
+
+   Mod( HEAD_2X2MOL )At(  5.4563,  5.5375 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 2304     ) At(  5.0858,  5.3045 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.0670" x  0.0670" ()  Pad  0.0470" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.356,  5.363 )   (90.0)      +60v_1 
+   Pad( 3 )        (  5.256,  5.363 )   (90.0)      28v_on_1 
+   Pad( 2 )        (  5.356,  5.263 )   (90.0)      -60v_1 
+   Pad( 4 )        (  5.256,  5.263 )   (90.0)      gnd 
+
+   PadSymbol( ' 0.0512" x  0.0512" ()  Pad  0.0512" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad(  )         (  5.408,  5.313 )   (90.0)       
+
+       Outline( Begin )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.1813,  5.4375 )-(  5.1813,  5.1875 )
+                   Seg(  5.4063,  5.4125 )-(  5.2063,  5.4125 )
+                   Seg(  5.5063,  5.2125 )-(  5.5063,  5.4125 )
+                   Seg(  5.5063,  5.4125 )-(  5.4063,  5.4125 )
+                   Seg(  5.2063,  5.2125 )-(  5.2063,  5.4125 )
+                   Seg(  5.5063,  5.2125 )-(  5.2063,  5.2125 )
+                   Seg(  5.5313,  5.2000 )-(  5.5313,  5.4250 )
+                   Seg(  5.4313,  5.4375 )-(  5.1813,  5.4375 )
+                   Seg(  5.4313,  5.1875 )-(  5.1813,  5.1875 )
+                   Seg(  5.2063,  5.3125 )-(  5.3750,  5.3125 )
+                   Seg(  5.4063,  5.4125 )-(  5.4063,  5.3438 )
+                   Seg(  5.4063,  5.2125 )-(  5.4063,  5.2813 )
+                   Seg(  5.3063,  5.3687 )-(  5.3063,  5.2125 )
+                   Seg(  5.5313,  5.4250 )-(  5.4313,  5.4250 )
+                   Seg(  5.4313,  5.4250 )-(  5.4313,  5.4375 )
+                   Seg(  5.5313,  5.2000 )-(  5.4313,  5.2000 )
+                   Seg(  5.4313,  5.2000 )-(  5.4313,  5.1875 )
+       Outline( End )
+
+
+Ref( K1          ) At(  5.0251,  5.8251 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.5499,  5.8251 ) Angle( 270.00 ) 
+                   Timestamp( DF5EB555 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 04_193 ) Field7( N__SOIC4 ) Field8( SOIC4 ) 
+
+   Mod( SOIC4    ) At(  5.0813,  5.8313 ) Angle( 270.00 ) Height(  0.0800 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( CPC1035  ) At(  5.1188,  5.7188 ) Angle(   0.00 ) Height(  0.0300 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen 1 )
+
+
+   PadSymbol( ' 0.0740" x  0.0240" ()  Pad  0.0000" drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.194,  5.606 )   (270.0)     n00002 
+   Pad( 2 )        (  5.094,  5.606 )   (270.0)     gnd 
+   Pad( 3 )        (  5.094,  5.831 )   (90.0)      n00003 
+   Pad( 4 )        (  5.194,  5.831 )   (90.0)      n00004 
+
+       Outline( Begin )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.0688,  5.6563 )-(  5.0688,  5.7813 )
+                   Seg(  5.2188,  5.7813 )-(  5.2188,  5.7313 )
+                   Seg(  5.2188,  5.7313 )-(  5.1938,  5.7313 )
+                   Seg(  5.1938,  5.7313 )-(  5.1938,  5.7063 )
+                   Seg(  5.1938,  5.7063 )-(  5.2188,  5.7063 )
+                   Seg(  5.2188,  5.7063 )-(  5.2188,  5.6563 )
+                   Seg(  5.2188,  5.7813 )-(  5.0688,  5.7813 )
+                   Seg(  5.2188,  5.6563 )-(  5.0688,  5.6563 )
+       Outline( End )
+
+
+Ref( KT1         ) At(  5.1780,  7.3059 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor( 21.8062,  9.2027 ) Angle(   0.00 ) 
+                   Timestamp( ACC4C6B1 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( N ) Field7( ___________________ ) Field8( KT ) 
+
+   Mod( KT       ) At(  7.0467,  5.5778 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( GND      ) At(  5.1748,  7.5372 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.3100" x  0.3100" ()  Pad  0.1340" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  6.281,  7.381 )   (0.0)       gnd 
+   Pad( 1 )        (  6.281,  5.381 )   (0.0)       gnd 
+   Pad( 1 )        (  1.506,  7.381 )   (180.0)     gnd 
+   Pad( 1 )        (  1.506,  5.381 )   (180.0)     gnd 
+
+   PadSymbol( ' 1.9990  x  1.9990  []  Pad  0.0000  drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( REPER1 )   (  5.619,  7.431 )   (180.0)      
+   Pad( REPER2 )   (  1.819,  5.331 )   (180.0)      
+
+   PadSymbol( ' 0.1200" x  0.1200" ()  Pad  0.0790" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.175,  7.425 )   (90.0)      gnd 
+
+   PadSymbol( ' 1.9990  x  1.9990  []  Pad  0.0000  drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( REPER3 )   (  1.819,  7.431 )   (180.0)      
+
+   PadSymbol( ' 0.0440" x  0.0440" ()  Pad  0.0200" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  1.350,  5.600 )   (180.0)     gnd 
+   Pad( 1 )        (  1.325,  6.350 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  7.100 )   (180.0)     gnd 
+   Pad( 1 )        (  1.500,  5.600 )   (180.0)     gnd 
+   Pad( 1 )        (  1.700,  5.600 )   (180.0)     gnd 
+   Pad( 1 )        (  2.050,  5.250 )   (180.0)     gnd 
+   Pad( 1 )        (  1.900,  5.600 )   (180.0)     gnd 
+   Pad( 1 )        (  2.250,  5.250 )   (180.0)     gnd 
+   Pad( 1 )        (  2.150,  5.400 )   (180.0)     gnd 
+   Pad( 1 )        (  2.250,  7.450 )   (180.0)     gnd 
+   Pad( 1 )        (  1.750,  7.150 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  6.500 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  7.250 )   (180.0)     gnd 
+   Pad( 1 )        (  2.000,  6.100 )   (180.0)     gnd 
+   Pad( 1 )        (  1.550,  7.150 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  5.750 )   (180.0)     gnd 
+   Pad( 1 )        (  1.900,  7.250 )   (180.0)     gnd 
+   Pad( 1 )        (  2.050,  7.450 )   (180.0)     gnd 
+   Pad( 1 )        (  3.700,  6.100 )   (180.0)     gnd 
+   Pad( 1 )        (  3.900,  6.000 )   (180.0)     gnd 
+   Pad( 1 )        (  3.300,  5.300 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  6.800 )   (180.0)     gnd 
+   Pad( 1 )        (  1.850,  6.300 )   (180.0)     gnd 
+   Pad( 1 )        (  2.100,  6.250 )   (180.0)     gnd 
+   Pad( 1 )        (  2.300,  5.750 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  5.900 )   (180.0)     gnd 
+   Pad( 1 )        (  3.450,  5.550 )   (180.0)     gnd 
+   Pad( 1 )        (  3.950,  5.250 )   (180.0)     gnd 
+   Pad( 1 )        (  3.900,  6.350 )   (180.0)     gnd 
+   Pad( 1 )        (  3.700,  6.800 )   (180.0)     gnd 
+   Pad( 1 )        (  3.000,  5.600 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  6.650 )   (180.0)     gnd 
+   Pad( 1 )        (  1.850,  6.450 )   (180.0)     gnd 
+   Pad( 1 )        (  2.100,  6.450 )   (180.0)     gnd 
+   Pad( 1 )        (  2.400,  5.500 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  6.050 )   (180.0)     gnd 
+   Pad( 1 )        (  3.150,  5.450 )   (180.0)     gnd 
+   Pad( 1 )        (  4.150,  5.300 )   (180.0)     gnd 
+   Pad( 1 )        (  4.250,  7.400 )   (180.0)     gnd 
+   Pad( 1 )        (  4.150,  7.150 )   (180.0)     gnd 
+   Pad( 1 )        (  3.300,  5.750 )   (180.0)     gnd 
+   Pad( 1 )        (  1.350,  6.950 )   (180.0)     gnd 
+   Pad( 1 )        (  2.050,  6.700 )   (180.0)     gnd 
+   Pad( 1 )        (  2.000,  6.350 )   (180.0)     gnd 
+   Pad( 1 )        (  3.000,  5.300 )   (180.0)     gnd 
+   Pad( 1 )        (  1.338,  6.200 )   (180.0)     gnd 
+   Pad( 1 )        (  3.700,  5.300 )   (180.0)     gnd 
+   Pad( 1 )        (  4.150,  5.650 )   (180.0)     gnd 
+   Pad( 1 )        (  3.750,  7.150 )   (180.0)     gnd 
+   Pad( 1 )        (  3.850,  7.350 )   (180.0)     gnd 
+   Pad( 1 )        (  3.700,  6.550 )   (180.0)     gnd 
+   Pad( 1 )        (  2.300,  7.050 )   (180.0)     gnd 
+   Pad( 1 )        (  2.400,  7.350 )   (180.0)     gnd 
+   Pad( 1 )        (  2.500,  7.550 )   (180.0)     gnd 
+   Pad( 1 )        (  2.900,  7.550 )   (180.0)     gnd 
+   Pad( 1 )        (  3.350,  6.350 )   (180.0)     gnd 
+   Pad( 1 )        (  3.500,  6.600 )   (180.0)     gnd 
+   Pad( 1 )        (  3.100,  7.300 )   (180.0)     gnd 
+   Pad( 1 )        (  3.250,  7.550 )   (180.0)     gnd 
+   Pad( 1 )        (  4.850,  7.550 )   (180.0)     gnd 
+   Pad( 1 )        (  5.200,  7.000 )   (180.0)     gnd 
+   Pad( 1 )        (  5.238,  6.750 )   (180.0)     gnd 
+   Pad( 1 )        (  3.800,  5.650 )   (180.0)     gnd 
+   Pad( 1 )        (  5.100,  7.150 )   (180.0)     gnd 
+   Pad( 1 )        (  5.225,  6.500 )   (180.0)     gnd 
+   Pad( 1 )        (  5.263,  5.800 )   (180.0)     gnd 
+   Pad( 1 )        (  2.300,  7.250 )   (180.0)     gnd 
+   Pad( 1 )        (  5.350,  7.200 )   (180.0)     gnd 
+   Pad( 1 )        (  5.800,  7.150 )   (180.0)     gnd 
+   Pad( 1 )        (  6.050,  7.250 )   (180.0)     gnd 
+   Pad( 1 )        (  3.950,  6.950 )   (180.0)     gnd 
+   Pad( 1 )        (  5.369,  7.494 )   (180.0)     gnd 
+   Pad( 1 )        (  6.450,  7.150 )   (180.0)     gnd 
+   Pad( 1 )        (  5.800,  7.550 )   (180.0)     gnd 
+   Pad( 1 )        (  3.919,  6.694 )   (180.0)     gnd 
+   Pad( 1 )        (  5.650,  5.550 )   (180.0)     gnd 
+   Pad( 1 )        (  3.450,  7.250 )   (180.0)     gnd 
+   Pad( 1 )        (  3.400,  6.800 )   (180.0)     gnd 
+   Pad( 1 )        (  3.500,  6.200 )   (180.0)     gnd 
+   Pad( 1 )        (  3.500,  5.950 )   (180.0)     gnd 
+   Pad( 1 )        (  3.700,  5.800 )   (180.0)     gnd 
+   Pad( 1 )        (  3.950,  7.200 )   (180.0)     gnd 
+   Pad( 1 )        (  4.200,  7.550 )   (180.0)     gnd 
+   Pad( 1 )        (  3.800,  7.550 )   (180.0)     gnd 
+   Pad( 1 )        (  5.900,  7.250 )   (180.0)     gnd 
+   Pad( 1 )        (  3.250,  7.000 )   (180.0)     gnd 
+   Pad( 1 )        (  3.950,  5.800 )   (180.0)     gnd 
+   Pad( 1 )        (  3.000,  7.150 )   (180.0)     gnd 
+   Pad( 1 )        (  5.294,  5.188 )   (180.0)     gnd 
+   Pad( 1 )        (  4.050,  5.500 )   (180.0)     gnd 
+   Pad( 1 )        (  4.050,  7.350 )   (180.0)     gnd 
+   Pad( 1 )        (  4.950,  5.300 )   (180.0)     gnd 
+   Pad( 1 )        (  3.700,  6.300 )   (180.0)     gnd 
+   Pad( 1 )        (  4.950,  5.550 )   (180.0)     gnd 
+   Pad( 1 )        (  5.000,  5.700 )   (180.0)     gnd 
+   Pad( 1 )        (  3.550,  7.000 )   (180.0)     gnd 
+   Pad( 1 )        (  6.450,  6.100 )   (180.0)     gnd 
+   Pad( 1 )        (  5.725,  5.700 )   (180.0)     gnd 
+   Pad( 1 )        (  6.450,  6.750 )   (180.0)     gnd 
+   Pad( 1 )        (  5.725,  5.850 )   (180.0)     gnd 
+   Pad( 1 )        (  5.725,  5.950 )   (180.0)     gnd 
+   Pad( 1 )        (  6.450,  6.400 )   (180.0)     gnd 
+   Pad( 1 )        (  5.725,  6.100 )   (180.0)     gnd 
+   Pad( 1 )        (  6.200,  6.450 )   (180.0)     gnd 
+   Pad( 1 )        (  5.638,  5.188 )   (180.0)     gnd 
+   Pad( 1 )        (  6.200,  5.200 )   (180.0)     gnd 
+   Pad( 1 )        (  5.950,  6.450 )   (180.0)     gnd 
+   Pad( 1 )        (  6.450,  5.800 )   (180.0)     gnd 
+
+       Outline( Begin )
+          Layer( SolderMask Component ) 
+               CopperTool( Standard Route 6 )
+                   Seg(  1.2438,  7.6438 )-(  1.2438,  5.1188 )
+                   Seg(  6.5438,  7.6438 )-(  6.5438,  5.1188 )
+          Layer( SolderMask Solder ) 
+                   Seg(  6.5438,  7.6438 )-(  6.5438,  5.1188 )
+                   Seg(  1.2438,  7.6438 )-(  1.2438,  5.1188 )
+          Layer( All Copper ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  6.5438,  7.6438 )-(  6.5438,  5.1250 )
+                   Seg(  1.2438,  7.6438 )-(  1.2438,  5.1250 )
+          Layer( SolderMask Component ) 
+               CopperTool( Standard Route 6 )
+                   Seg(  1.2438,  7.6438 )-(  6.5438,  7.6438 )
+                   Seg(  1.2438,  5.1188 )-(  6.5438,  5.1188 )
+          Layer( SolderMask Solder ) 
+                   Seg(  1.2438,  7.6438 )-(  6.5438,  7.6438 )
+                   Seg(  1.2438,  5.1188 )-(  6.5438,  5.1188 )
+          Layer( All Copper ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.2438,  7.6438 )-(  6.5438,  7.6438 )
+                   Seg(  1.2438,  5.1250 )-(  6.5438,  5.1250 )
+       Outline( End )
+
+
+Ref( M1          ) At(  2.3075,  5.3715 ) Angle(   0.00 ) Height(  0.0640 ) 
+                   Layer( SilkScreen Solder ) CopperTool( Standard Silk Screen )
+
+                   Anchor( -1.7920,  1.9710 ) Angle(  90.00 ) 
+                   Timestamp( DF5E3B57 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 04_____ ) Field7( _NB1L2MINUSC______NB_L2MINUSC ) 
+                   Field8( PKJ ) 
+
+   Mod( PKJ      ) At(  1.0875,  9.5247 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( PAN-28/16-D48 )At(  3.3275,  5.4053 ) Angle(   0.00 ) Height(  0.0600 ) 
+                   Layer( ECO 2 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.1500" x  0.1500" ()  Pad  0.1100" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 9 )        (  2.681,  5.681 )   (0.0)       v+_1 
+
+   PadSymbol( ' 0.1500" x  0.1500" ()  Pad  0.0630" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 8 )        (  2.681,  6.081 )   (0.0)       v+_1 
+   Pad( 7 )        (  2.681,  6.381 )   (0.0)        
+   Pad( 6 )        (  2.681,  6.681 )   (0.0)       v-_1 
+
+   PadSymbol( ' 0.1500" x  0.1500" ()  Pad  0.1100" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 5 )        (  2.681,  7.081 )   (0.0)       v-_1 
+
+   PadSymbol( ' 0.1500" x  0.1500" ()  Pad  0.0630" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 2 )        (  4.581,  6.081 )   (0.0)       n00003 
+   Pad( 1 )        (  4.581,  5.681 )   (0.0)       n00005 
+   Pad( 3 )        (  4.581,  6.681 )   (0.0)       gnd 
+   Pad( 4 )        (  4.581,  7.081 )   (0.0)       n00004 
+
+   PadSymbol( ' 0.3100" x  0.3100" ()  Pad  0.1340" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 3 )        (  2.681,  7.381 )   (0.0)       gnd 
+   Pad( 3 )        (  4.581,  7.381 )   (0.0)       gnd 
+   Pad( 3 )        (  4.581,  5.381 )   (0.0)       gnd 
+   Pad( 3 )        (  2.681,  5.381 )   (0.0)       gnd 
+
+       Outline( Begin )
+          Layer( SilkScreen Solder ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  4.8563,  5.1563 )-(  2.4063,  5.1563 )
+                   Seg(  4.8563,  7.6060 )-(  2.4063,  7.6060 )
+                   Seg(  4.8563,  5.1563 )-(  4.8563,  7.6060 )
+                   Seg(  2.4063,  5.1563 )-(  2.4063,  7.6060 )
+       Outline( End )
+
+
+Ref( R1          ) At(  5.2626,  5.6751 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  5.3439,  5.8907 ) Angle(  90.00 ) 
+                   Timestamp( DF5EAE54 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 1_ ) Field5( 02_356 ) Field7( _1__0603 ) 
+                   Field8( 0603 ) 
+
+   Mod( 0603     ) At(  5.2063,  5.8220 ) Angle(  90.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 1K       ) At(  5.2563,  5.5751 ) Angle(  90.00 ) Height(  0.0300 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen 1 )
+
+
+   PadSymbol( ' 0.8992  x  0.8001  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.256,  5.544 )   (0.0)       28v_on_1 
+   Pad( 2 )        (  5.256,  5.606 )   (180.0)     n00002 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  5.2720,  5.5439 )-(  5.2720,  5.6064 )
+                   Seg(  5.2408,  5.5439 )-(  5.2408,  5.6064 )
+                   Seg(  5.2408,  5.6064 )-(  5.2720,  5.6064 )
+                   Seg(  5.2408,  5.5439 )-(  5.2720,  5.5439 )
+                   Seg(  5.2720,  5.5564 )-(  5.2408,  5.5564 )
+                   Seg(  5.2720,  5.5939 )-(  5.2408,  5.5939 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.2876,  5.6314 )-(  5.2876,  5.5876 )
+                   Seg(  5.2251,  5.6314 )-(  5.2251,  5.5876 )
+                   Seg(  5.2876,  5.6314 )-(  5.2251,  5.6314 )
+                   Seg(  5.2251,  5.5626 )-(  5.2251,  5.5188 )
+                   Seg(  5.2251,  5.5188 )-(  5.2876,  5.5188 )
+                   Seg(  5.2876,  5.5626 )-(  5.2876,  5.5188 )
+       Outline( End )
+
+
+Ref( R2          ) At(  2.1312,  7.1688 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.9156,  7.2501 ) Angle(   0.00 ) 
+                   Timestamp( ADCDD6C0 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 1_ ) Field5( 02_536 ) Field7( _1__0603 ) 
+                   Field8( 0603 ) 
+
+   Mod( 0603     ) At(  1.7593,  7.1188 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen 1 )
+
+   Val( 13K      ) At(  2.0062,  7.1688 ) Angle(   0.00 ) Height(  0.0300 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen 1 )
+
+
+   PadSymbol( ' 0.8992  x  0.8001  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  2.038,  7.169 )   (270.0)     n00010 
+   Pad( 2 )        (  1.975,  7.169 )   (90.0)      gnd 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  2.0374,  7.1845 )-(  1.9749,  7.1845 )
+                   Seg(  2.0374,  7.1533 )-(  1.9749,  7.1533 )
+                   Seg(  1.9749,  7.1533 )-(  1.9749,  7.1845 )
+                   Seg(  2.0374,  7.1533 )-(  2.0374,  7.1845 )
+                   Seg(  2.0249,  7.1845 )-(  2.0249,  7.1533 )
+                   Seg(  1.9874,  7.1845 )-(  1.9874,  7.1533 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.9499,  7.2001 )-(  1.9937,  7.2001 )
+                   Seg(  1.9499,  7.1376 )-(  1.9937,  7.1376 )
+                   Seg(  1.9499,  7.2001 )-(  1.9499,  7.1376 )
+                   Seg(  2.0187,  7.1376 )-(  2.0625,  7.1376 )
+                   Seg(  2.0625,  7.1376 )-(  2.0625,  7.2001 )
+                   Seg(  2.0187,  7.2001 )-(  2.0625,  7.2001 )
+       Outline( End )
+
+
+Ref( R3          ) At(  2.1251,  5.5875 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  2.3407,  5.5062 ) Angle( 180.00 ) 
+                   Timestamp( ADCDCEA2 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field2( 1_ ) Field5( 02_536 ) Field7( _1__0603 ) 
+                   Field8( 0603 ) 
+
+   Mod( 0603     ) At(  2.2532,  5.6375 ) Angle( 180.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen 1 )
+
+   Val( 13K      ) At(  2.0063,  5.5875 ) Angle(   0.00 ) Height(  0.0300 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen 1 )
+
+
+   PadSymbol( ' 0.8992  x  0.8001  []  Pad  0.0000  drill #.' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  1.975,  5.588 )   (90.0)      n00016 
+   Pad( 2 )        (  2.038,  5.588 )   (270.0)     gnd 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.9751,  5.5718 )-(  2.0376,  5.5718 )
+                   Seg(  1.9751,  5.6030 )-(  2.0376,  5.6030 )
+                   Seg(  2.0376,  5.6030 )-(  2.0376,  5.5718 )
+                   Seg(  1.9751,  5.6030 )-(  1.9751,  5.5718 )
+                   Seg(  1.9876,  5.5718 )-(  1.9876,  5.6030 )
+                   Seg(  2.0251,  5.5718 )-(  2.0251,  5.6030 )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  2.0626,  5.5562 )-(  2.0188,  5.5562 )
+                   Seg(  2.0626,  5.6187 )-(  2.0188,  5.6187 )
+                   Seg(  2.0626,  5.5562 )-(  2.0626,  5.6187 )
+                   Seg(  1.9938,  5.6187 )-(  1.9500,  5.6187 )
+                   Seg(  1.9500,  5.6187 )-(  1.9500,  5.5562 )
+                   Seg(  1.9938,  5.5562 )-(  1.9500,  5.5562 )
+       Outline( End )
+
+
+Ref( T1          ) At(  5.0356,  6.8953 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor(  0.5821, 13.5759 ) Angle( 270.00 ) 
+                   Timestamp( AC760952 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 05____ ) Field7( __744823422___WE ) Field8( 823 ) 
+
+   Mod( 823      ) At( 10.6729,  0.3477 ) Angle( 270.00 ) Height(  0.0500 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 2.2MH    ) At(  5.1043,  6.7828 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.0680" x  0.0680" []  Pad  0.0440" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  5.094,  6.594 )   (180.0)     n00004 
+
+   PadSymbol( ' 0.0680" x  0.0680" ()  Pad  0.0440" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 2 )        (  5.390,  6.594 )   (180.0)     n00012 
+   Pad( 3 )        (  5.390,  6.172 )   (180.0)     n00011 
+   Pad( 4 )        (  5.094,  6.172 )   (180.0)     n00005 
+
+       Outline( Begin )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  5.5168,  6.8453 )-(  4.9668,  6.8453 )
+                   Seg(  5.5168,  5.9203 )-(  4.9668,  5.9203 )
+                   Seg(  4.9668,  5.9203 )-(  4.9668,  6.8453 )
+                   Seg(  5.5168,  5.9203 )-(  5.5168,  6.8453 )
+       Outline( End )
+
+
+Ref( T2          ) At(  6.3328,  6.7708 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+                   Anchor( 12.9381, 12.4769 ) Angle(   0.00 ) 
+                   Timestamp( AC760974 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 05____ ) Field7( __744823422___WE ) Field8( 823 ) 
+
+   Mod( 823      ) At(  0.6847,  1.0153 ) Angle(   0.00 ) Height(  0.0500 ) 
+                   Layer( SilkScreen Component ) 
+                   CopperTool( Standard Silk Screen )
+
+   Val( 2.2MH    ) At(  6.3703,  6.6708 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 1 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 0.0680" x  0.0680" []  Pad  0.0440" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 1 )        (  6.256,  6.594 )   (270.0)     n00012 
+
+   PadSymbol( ' 0.0680" x  0.0680" ()  Pad  0.0440" drill ##' ) 
+   ;               At                   Angle      NetName
+   Pad( 2 )        (  6.256,  6.298 )   (270.0)     -60v_1 
+   Pad( 3 )        (  5.834,  6.298 )   (270.0)     +60v_1 
+   Pad( 4 )        (  5.834,  6.594 )   (270.0)     n00011 
+
+       Outline( Begin )
+          Layer( SilkScreen Component ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  6.5078,  6.1708 )-(  6.5078,  6.7208 )
+                   Seg(  5.5828,  6.1708 )-(  5.5828,  6.7208 )
+                   Seg(  5.5828,  6.7208 )-(  6.5078,  6.7208 )
+                   Seg(  5.5828,  6.1708 )-(  6.5078,  6.1708 )
+       Outline( End )
+
+
+Ref( T3          ) At(  2.3064,  6.0877 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Solder ) CopperTool( Standard Silk Screen )
+
+                   Anchor(  1.6436,  6.0502 ) Angle( 180.00 ) 
+                   Timestamp( DFA689E9 )
+                   ModuleOptions( Visible Name ) 
+                   ModuleOptions( Visible Value ) 
+                   Field5( 05_161 ) Field7( MINUS022MINUS01 ) Field8( BNX ) 
+
+   Mod( BNX      ) At(  0.4788, 19.0368 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( SilkScreen Solder ) CopperTool( Standard Silk Screen )
+
+   Val( BNX      ) At(  1.9875,  6.2626 ) Angle(   0.00 ) Height(  0.0400 ) 
+                   Layer( ECO 2 ) CopperTool( Standard Silk Screen )
+
+
+   PadSymbol( ' 2.3012  x  7.8994  []  Pad  0.0000  drill .#' ) 
+   ;               At                   Angle      NetName
+   Pad( 4 )        (  1.953,  6.575 )   (270.0)     gnd 
+
+   PadSymbol( ' 2.3012  x  3.4011  []  Pad  0.0000  drill .#' ) 
+   ;               At                   Angle      NetName
+   Pad( 4 )        (  1.866,  6.191 )   (270.0)     gnd 
+
+   PadSymbol( ' 2.4994  x  3.7998  []  Pad  0.0000  drill .#' ) 
+   ;               At                   Angle      NetName
+   Pad( 3 )        (  2.263,  6.469 )   (270.0)     v-_1 
+   Pad( 1 )        (  2.263,  6.300 )   (270.0)     v+_1 
+   Pad( 2 )        (  1.722,  6.300 )   (270.0)     v12_1 
+   Pad( 4 )        (  1.722,  6.469 )   (270.0)     gnd 
+
+       Outline( Begin )
+          Layer( Assembly Drawing ) 
+               CopperTool( Standard Silk Screen 1 )
+                   Seg(  1.7531,  6.2031 )-(  1.7531,  6.5656 )
+                   Seg(  2.2344,  6.2031 )-(  2.2344,  6.5656 )
+                   Seg(  2.2344,  6.5656 )-(  1.7531,  6.5656 )
+                   Seg(  2.2344,  6.2031 )-(  1.7531,  6.2031 )
+          Layer( SilkScreen Solder ) 
+               CopperTool( Standard Silk Screen )
+                   Seg(  1.6344,  6.1343 )-(  1.6344,  6.6312 )
+                   Seg(  2.3500,  6.1343 )-(  2.3500,  6.6312 )
+                   Seg(  1.6344,  6.6312 )-(  2.3500,  6.6312 )
+                   Seg(  1.6344,  6.1343 )-(  2.3500,  6.1343 )
+                   Seg(  2.2500,  6.1343 )-(  2.2500,  6.2281 )
+                   Seg(  2.3500,  6.2281 )-(  2.2500,  6.2281 )
+       Outline( End )
+
+
+Start( PadSymbols )
+
+
+
+PadSymbol( ' 0.0440" x  0.0440" ()  Pad  0.0200" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.0440 ) SizeY( 0.0440 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0200 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.0512" x  0.0512" ()  Pad  0.0512" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.0512 ) SizeY( 0.0512 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0512 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.0640" x  0.0640" ()  Pad  0.0400" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.0640 ) SizeY( 0.0640 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0400 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.0670" x  0.0670" ()  Pad  0.0470" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.0670 ) SizeY( 0.0670 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0470 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.0680" x  0.0680" ()  Pad  0.0440" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.0680 ) SizeY( 0.0680 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0440 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.0680" x  0.0680" []  Pad  0.0440" drill ##' ) 
+           PadStyle( Rectangle ) Layer( All Copper ) 
+                   SizeX( 0.0680 ) SizeY( 0.0680 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0440 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.0740" x  0.0240" ()  Pad  0.0000" drill #.' ) 
+           PadStyle( Oval ) Layer( Component Copper ) 
+                   SizeX( 0.0740 ) SizeY( 0.0240 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.1000" x  0.0500" []  Pad  0.0000" drill #.' ) 
+           PadStyle( Rectangle ) Layer( Component Copper ) 
+                   SizeX( 0.1000 ) SizeY( 0.0500 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.1200" x  0.1200" ()  Pad  0.0790" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.1200 ) SizeY( 0.1200 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0790 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.1500" x  0.1500" ()  Pad  0.0630" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.1500 ) SizeY( 0.1500 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0630 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.1500" x  0.1500" ()  Pad  0.1100" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.1500 ) SizeY( 0.1500 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.1100 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.1600" x  0.0800" []  Pad  0.0000" drill #.' ) 
+           PadStyle( Rectangle ) Layer( Component Copper ) 
+                   SizeX( 0.1600 ) SizeY( 0.0800 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 0.3100" x  0.3100" ()  Pad  0.1340" drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.3100 ) SizeY( 0.3100 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.1340 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0080 ) 
+
+
+
+PadSymbol( ' 0.8992  x  0.8001  []  Pad  0.0000  drill #.' ) 
+           PadStyle( Rectangle ) Layer( Component Copper ) 
+                   SizeX( 0.0354 ) SizeY( 0.0315 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 1.6002  x  1.6002  ()  Pad  1.6002  drill ##' ) 
+           PadStyle( Oval ) Layer( All Copper ) 
+                   SizeX( 0.0630 ) SizeY( 0.0630 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0630 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0100 ) 
+
+
+
+PadSymbol( ' 1.7501  x  2.2200  []  Pad  0.0000  drill #.' ) 
+           PadStyle( Rectangle ) Layer( Component Copper ) 
+                   SizeX( 0.0689 ) SizeY( 0.0874 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 1.9990  x  1.9990  []  Pad  0.0000  drill ##' ) 
+           PadStyle( Rectangle ) Layer( All Copper ) 
+                   SizeX( 0.0787 ) SizeY( 0.0787 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0787 ) 
+
+
+
+PadSymbol( ' 2.3012  x  3.4011  []  Pad  0.0000  drill .#' ) 
+           PadStyle( Rectangle ) Layer( Solder Copper ) 
+                   SizeX( 0.0906 ) SizeY( 0.1339 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 2.3012  x  7.8994  []  Pad  0.0000  drill .#' ) 
+           PadStyle( Rectangle ) Layer( Solder Copper ) 
+                   SizeX( 0.0906 ) SizeY( 0.3110 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 2.4994  x  3.7998  []  Pad  0.0000  drill .#' ) 
+           PadStyle( Rectangle ) Layer( Solder Copper ) 
+                   SizeX( 0.0984 ) SizeY( 0.1496 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 3.1801  x  1.9990  []  Pad  0.0000  drill #.' ) 
+           PadStyle( Rectangle ) Layer( Component Copper ) 
+                   SizeX( 0.1252 ) SizeY( 0.0787 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 5.4000  x  1.3005  []  Pad  0.0000  drill #.' ) 
+           PadStyle( Rectangle ) Layer( Component Copper ) 
+                   SizeX( 0.2126 ) SizeY( 0.0512 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+PadSymbol( ' 7.0002  x  3.5001  []  Pad  0.0000  drill #.' ) 
+           PadStyle( Rectangle ) Layer( Component Copper ) 
+                   SizeX( 0.2756 ) SizeY( 0.1378 ) 
+                   OffsetX( 0.0000 ) OffsetY( 0.0000 ) 
+                   DrillDiameter( 0.0000 ) CopperGuard( 0.0000 ) 
+                   SolderMaskGuard( 0.0040 ) 
+
+
+
+Start( CopperTools )
+
+
+
+CopperTool( Standard Route 6 ) Width( 0.0400 ) Guard( 0.0000 ) 
+
+
+
+CopperTool( Standard Silk Screen ) Width( 0.0060 ) Guard( 0.0000 ) 
+
+
+
+CopperTool( Standard Silk Screen 1 ) Width( 0.0008 ) Guard( 0.0000 ) 
+
+
+
+End( ReportFile )
